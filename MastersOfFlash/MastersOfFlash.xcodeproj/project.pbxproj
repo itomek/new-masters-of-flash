@@ -13,6 +13,7 @@
 		4016D48F2A3665D200E7F38F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4016D48E2A3665D200E7F38F /* Preview Assets.xcassets */; };
 		4016D4972A36667F00E7F38F /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016D4962A36667F00E7F38F /* BubbleView.swift */; };
 		4016D4992A366A8900E7F38F /* TriBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016D4982A366A8900E7F38F /* TriBubbleView.swift */; };
+		408737932A72013900C4009C /* BubbleBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408737922A72013900C4009C /* BubbleBorder.swift */; };
 		40CAEA6C2A6DED3400F8548E /* BubbleDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAEA6A2A6DED3400F8548E /* BubbleDrawView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		4016D48E2A3665D200E7F38F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4016D4962A36667F00E7F38F /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		4016D4982A366A8900E7F38F /* TriBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriBubbleView.swift; sourceTree = "<group>"; };
+		408737922A72013900C4009C /* BubbleBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleBorder.swift; sourceTree = "<group>"; };
 		40CAEA6A2A6DED3400F8548E /* BubbleDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				40CAEA6A2A6DED3400F8548E /* BubbleDrawView.swift */,
 				4016D4962A36667F00E7F38F /* BubbleView.swift */,
 				4016D4982A366A8900E7F38F /* TriBubbleView.swift */,
+				408737922A72013900C4009C /* BubbleBorder.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				4016D4972A36667F00E7F38F /* BubbleView.swift in Sources */,
 				4016D4892A3665D200E7F38F /* ContentView.swift in Sources */,
 				4016D4872A3665D200E7F38F /* MastersOfFlashApp.swift in Sources */,
+				408737932A72013900C4009C /* BubbleBorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

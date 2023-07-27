@@ -13,8 +13,10 @@ struct TriBubbleView: View {
         
         GeometryReader { geometry in
             ZStack {
+                
                 // MARK: Left Bubble
                 ZStack(alignment: .center) {
+                    
                     BubbleView()
                         .rotationEffect(.degrees(120))
                     BubbleDrawView()
@@ -23,8 +25,9 @@ struct TriBubbleView: View {
                 .scaleEffect(x: 0.5, y: 0.5)
                 .position(CGPoint(
                     x: geometry.size.width / 2 - 80,
-                    y: geometry.size.height / 2 + 10
-                )).opacity(0.7)
+                    y: geometry.size.height / 2 + 50
+                ))
+                .opacity(0.7)
                 
                 // MARK: Top Bubble
                 ZStack(alignment: .center) {
@@ -35,8 +38,8 @@ struct TriBubbleView: View {
                 .rotationEffect(.degrees(-140))
                 .scaleEffect(x: 0.5, y: 0.5)
                 .position(CGPoint(
-                    x: geometry.size.width / 2 - 20,
-                    y: geometry.size.height / 2 - 80
+                    x: geometry.size.width / 2 - 0,
+                    y: geometry.size.height / 2 - 95
                 )).opacity(0.7)
                 
                 // MARK: Right Bubble
@@ -48,10 +51,9 @@ struct TriBubbleView: View {
                 .rotationEffect(.degrees(0))
                 .scaleEffect(x: 0.5, y: 0.5)
                 .position(CGPoint(
-                    x: geometry.size.width / 2 + 40,
-                    y: geometry.size.height / 2 + 20
+                    x: geometry.size.width / 2 + 80,
+                    y: geometry.size.height / 2 + 50
                 )).opacity(0.7)
-                
             }
         }
     }
@@ -60,6 +62,6 @@ struct TriBubbleView: View {
 struct TriBubbleView_Previews: PreviewProvider {
     static var previews: some View {
         TriBubbleView()
-            .background(.black)
+//            .background(.black)
     }
 }
