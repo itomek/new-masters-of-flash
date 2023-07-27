@@ -26,7 +26,7 @@ struct ContentView: View {
         }
         .rotationEffect(.degrees(rotationDegrees))
         .onTapGesture {
-            withAnimation {
+            withAnimation(.easeInOut(duration: 0.7)) {
                 rotate()
             }
         }
